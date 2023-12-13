@@ -1,0 +1,6 @@
+def combinations(n, r):
+    return factorial(n) // (factorial(r) * factorial(n - r))
+
+result = combinations(5, 2)
+print(result)
+# Output: 10
