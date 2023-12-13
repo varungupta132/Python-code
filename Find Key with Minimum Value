@@ -1,0 +1,4 @@
+my_dict = {'a': 10, 'b': 5, 'c': 8}
+min_key = min(my_dict, key=my_dict.get)
+print(f"The key with the minimum value is: {min_key}")
+# Output: 'b'
