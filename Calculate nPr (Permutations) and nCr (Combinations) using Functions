@@ -1,0 +1,8 @@
+def nPr_nCr(n, r):
+    nPr = permutations(n, r)
+    nCr = combinations(n, r)
+    return nPr, nCr
+
+result = nPr_nCr(5, 2)
+print(f"nPr: {result[0]}, nCr: {result[1]}")
+# Output: nPr: 20, nCr: 10
