@@ -1,0 +1,4 @@
+numeric_str = "12345"
+is_numeric = numeric_str.isnumeric()
+print(is_numeric)
+# Output: True
