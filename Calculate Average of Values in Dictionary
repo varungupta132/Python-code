@@ -1,0 +1,4 @@
+grades = {'Alice': 90, 'Bob': 85, 'Charlie': 92}
+average_grade = sum(grades.values()) / len(grades)
+print(f"The average grade is: {average_grade}")
+# Output: The average grade is: 89.0
