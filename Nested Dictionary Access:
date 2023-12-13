@@ -1,0 +1,4 @@
+my_dict = {'a': {'b': {'c': 3}}}
+result = my_dict.get('a', {}).get('b', {}).get('c', None)
+print(result)
+# Output: 3
