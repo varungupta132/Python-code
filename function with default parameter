@@ -1,0 +1,5 @@
+def power(base, exponent=2):
+    result = base ** exponent
+    print(f"{base} raised to the power {exponent} is {result}")
+
+power(3)
