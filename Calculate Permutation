@@ -1,0 +1,6 @@
+def permutation(n, r):
+    return factorial(n) // factorial(n - r)
+
+result = permutation(5, 2)
+print(result)
+# Output: 20
