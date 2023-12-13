@@ -1,0 +1,4 @@
+alphabetic_str = "Python"
+is_alphabetic = alphabetic_str.isalpha()
+print(is_alphabetic)
+# Output: True
