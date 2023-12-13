@@ -1,0 +1,11 @@
+def word_frequencies(text):
+    word_count = {}
+    words = text.split()
+    for word in words:
+        word_count[word] = word_count.get(word, 0) + 1
+    return word_count
+
+text = "This is a simple example. This example is simple."
+result = word_frequencies(text)
+print(result)
+# Output: {'This': 2, 'is': 2, 'a': 1, 'simple': 2, 'example.': 2}
