@@ -1,0 +1,9 @@
+def lcm_list(numbers):
+    lcm_result = 1
+    for num in numbers:
+        lcm_result = lcm(lcm_result, num)
+    return lcm_result
+
+result = lcm_list([4, 6, 8, 10])
+print(result)
+# Output: 120
