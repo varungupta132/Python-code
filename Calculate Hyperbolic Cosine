@@ -1,0 +1,8 @@
+import math
+
+def hyperbolic_cosine(x):
+    return math.cosh(x)
+
+result = hyperbolic_cosine(1)
+print(result)
+# Output: 1.5430806348152437
