@@ -1,0 +1,4 @@
+fruits_list = ['apple', 'banana', 'orange']
+text = ",".join(fruits_list)
+print(text)
+# Output: "apple,banana,orange"
