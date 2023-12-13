@@ -1,0 +1,3 @@
+message = "Python Programming"
+substring = message[7:18]
+print(substring)
