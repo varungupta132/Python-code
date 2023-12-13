@@ -1,0 +1,4 @@
+text = "Python is powerful."
+index_powerful = text.find("powerful")
+print(index_powerful)
+# Output: 10
