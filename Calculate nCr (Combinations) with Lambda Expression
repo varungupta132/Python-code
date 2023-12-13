@@ -1,0 +1,5 @@
+combinations = lambda n, r: factorial(n) // (factorial(r) * factorial(n - r))
+
+result = combinations(6, 3)
+print(result)
+# Output: 20
