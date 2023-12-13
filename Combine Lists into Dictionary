@@ -1,0 +1,6 @@
+keys = ['name', 'age', 'city']
+values = ['Alice', 25, 'Wonderland']
+
+combined_dict = dict(zip(keys, values))
+print(combined_dict)
+# Output: {'name': 'Alice', 'age': 25, 'city': 'Wonderland'}
