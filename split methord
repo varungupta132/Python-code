@@ -1,0 +1,4 @@
+text = "apple,banana,orange"
+fruits_list = text.split(",")
+print(fruits_list)
+# Output: ['apple', 'banana', 'orange']
