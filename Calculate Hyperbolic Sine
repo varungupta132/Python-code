@@ -1,0 +1,8 @@
+import math
+
+def hyperbolic_sine(x):
+    return math.sinh(x)
+
+result = hyperbolic_sine(1)
+print(result)
+# Output: 1.1752011936438014
