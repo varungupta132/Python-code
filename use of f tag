@@ -1,0 +1,5 @@
+name = "John"
+age = 25
+formatted_text = f"My name is {name} and I'm {age} years old."
+print(formatted_text)
+# Output: "My name is John and I'm 25 years old."
