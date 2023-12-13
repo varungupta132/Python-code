@@ -1,0 +1,8 @@
+from functools import reduce
+
+def gcd_list_v2(numbers):
+    return reduce(gcd, numbers)
+
+result = gcd_list_v2([15, 25, 35])
+print(result)
+# Output: 5
